@@ -35,7 +35,7 @@ we employ [Bayesian generative stochastic block modelling](https://dx.doi.org/10
 Our findings illuminate the complex dependence between features across the genetic landscape of brain tumours, and show that **generative network models reveal distinct signatures of survival with better prognostic fidelity than [current gold standard diagnostic categories](https://doi.org/10.1093/neuonc/noab106).**
 
 ![figure6](assets/Figure6.jpg)
-**Graph patient genetic mapping offers higher fidelity prognosis.** A) Radial graph of a nested, degree-corrected, and binomially weighted stochastic block model revealing the community structure of patients based on tumour genetics. Communities are colour coded by the hazard ratio of the survival model of the second level blocks (L2). B) Pie chart of brain tumour diagnoses colour-coded by the hazard ratio of the survival model with the diagnostic label. In a-b), darker colours convey a poorer prognosis (hazard ratio > 1), and conversely lighter colours a more favourable one (hazard ratio < 1). C) Box and whisker plot illustrating the hazard ratios with 95% confidence interval of the second level blocks of the stochastic block model community structure. D) Box and whisker plot illustrating the hazard ratios with 95% confidence interval of the tumour diagnoses and raw genetics. E) Survival plot of the second level blocks of the stochastic block model community structure illustrates a rich variation in survival, colour-coded by the blocks in both panels A, C) and on the previous figure. F) Survival plot of the tumour diagnoses shows coarser forecasting of patient prognosis, colour-coded by the diagnoses of panels b.
+**Graph patient genetic mapping offers higher fidelity prognosis.** A) Radial graph of a nested, degree-corrected, and binomially weighted stochastic block model revealing the community structure of patients based on tumour genetics. Communities are colour coded by the hazard ratio of the survival model of the second level blocks (L2). B) Pie chart of brain tumour diagnoses colour-coded by the hazard ratio of the survival model with the diagnostic label. In a-b), darker colours convey a poorer prognosis (hazard ratio > 1), and conversely lighter colours a more favourable one (hazard ratio < 1). C) Box and whisker plot illustrating the hazard ratios with 95% confidence interval of the second level blocks of the stochastic block model community structure. D) Box and whisker plot illustrating the hazard ratios with 95% confidence interval of the tumour diagnoses and raw genetics. E) Survival plot of the second level blocks of the stochastic block model community structure illustrates a rich variation in survival, colour-coded by the blocks in both panels A, C) and on the previous figure. F) Survival plot of the tumour diagnoses shows coarser forecasting of patient prognosis, colour-coded by the diagnoses of panels B.
 
 
 ![figure7](assets/Figure7.jpg)
@@ -54,7 +54,7 @@ Demonstrates fitting the generative, hierarchical stochastic block model of all 
 
 
 ### [3_VisualiseGraph](code/3_VisualiseGraph.ipynb)
-Shows visualisation of the results, and projection of survival data
+Shows visualisation of the results, and projection of survival data.
 
 
 ### [4_SurvivalPrediction](code/4_SurvivalModelling.m)
