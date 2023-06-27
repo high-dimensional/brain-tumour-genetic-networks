@@ -43,21 +43,21 @@ Our findings illuminate the complex dependence between features across the genet
 
 
 ## Code
-Code for all model development and post-hoc analysis detailed within the [article](URL) is *open sourced* [here](code/). These are as follows:
+Example code for all model development and post-hoc analysis detailed within the [article](URL) is *open sourced* [here](code/). These are as follows:
 
-### [1_GenerateGraph](code/1_GenerateGraph.ipynb)
+### [1_GenerateGraph.ipynb](code/1_GenerateGraph.ipynb)
 Illustrates the preliminary data wrangling, node and edge-list curation to pass this to a graph object with a subset of the original data. Also shown are minimum spanning tree visualisations.
 
 
-### [2_ModelGraph](code/2_ModelGraph.ipynb)
+### [2_ModelGraph.ipynb](code/2_ModelGraph.ipynb)
 Demonstrates fitting the generative, hierarchical stochastic block model of all *patients as nodes*, and *edges depicting the multivariate similarity between genetic/epigenetic tests*. Initial fitting is undertaken with the [stochastic block model](https://dx.doi.org/10.1002/9781119483298.ch11) with further optimisation via [MCMC](https://dx.doi.org/10.1103/PhysRevE.89.012804).
 
 
-### [3_VisualiseGraph](code/3_VisualiseGraph.ipynb)
+### [3_VisualiseGraph.ipynb](code/3_VisualiseGraph.ipynb)
 Shows visualisation of the results, and projection of survival data.
 
 
-### [4_SurvivalPrediction](code/4_SurvivalModelling.m)
+### [4_SurvivalModelling.m](code/4_SurvivalModelling.m)
 Shows the Bayesian Regression survival modelling implemented with [BayesReg](https://www.mathworks.com/matlabcentral/fileexchange/60823-flexible-bayesian-penalized-regression-modelling) in MATLAB.
 
 
