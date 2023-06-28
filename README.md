@@ -51,7 +51,8 @@ Illustrates the preliminary data wrangling, node and edge-list curation to pass 
 
 ### [2_ModelGraph.ipynb](code/2_ModelGraph.ipynb)
 Demonstrates fitting the generative, hierarchical stochastic block model of all *patients as nodes*, and *edges depicting the multivariate similarity between genetic/epigenetic tests*. Initial fitting is undertaken with the [stochastic block model](https://dx.doi.org/10.1002/9781119483298.ch11) with further optimisation via [MCMC](https://dx.doi.org/10.1103/PhysRevE.89.012804).
-N.B. in this toy example we utilise only the minimum spanning tree, and reduce the number of iterations in MCMC. For a full analysis (as done in the (article)[URL]), we recommend using the non-thresholded graph, and MCMC iterations should be increased.
+
+N.B. in this toy example we utilise only the minimum spanning tree, and reduce the number of iterations in MCMC. For a full analysis (as done in the [article](URL)), we recommend using the non-thresholded graph, and MCMC iterations should be increased.
 
 ### [3_VisualiseGraph.ipynb](code/3_VisualiseGraph.ipynb)
 Shows visualisation of the results, and projection of survival data.
