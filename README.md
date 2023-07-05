@@ -70,7 +70,7 @@ Via github issue log or email to j.ruffle@ucl.ac.uk.
 ## Citation
 If using these works, please cite the following [article](URL).
 
-James K Ruffle, Robert Gray, Samia Mohinta, Guilherme Pombo, Chaitanya Kaul, Harpreet Hyare, Geraint Rees, Parashkev Nachev. Brain tumour genetic network signatures of survival. Brain. 2023. DOI X
+James K Ruffle, Robert Gray, Samia Mohinta, Guilherme Pombo, Chaitanya Kaul, Harpreet Hyare, Geraint Rees, Parashkev Nachev. Brain tumour genetic network signatures of survival. Brain. 2023. In press.
 
 
 ## Funding
