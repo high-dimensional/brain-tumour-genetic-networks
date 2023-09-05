@@ -1,4 +1,4 @@
-# [Brain tumour genetic network signatures of survival](URL)
+# [Brain tumour genetic network signatures of survival](https://doi.org/10.1093/brain/awad199)
 # Article codebase
 
 ![cover_image](assets/CoverImage.png)
@@ -12,7 +12,7 @@
 
 
 ## What is this repository for?
-This is the codebase for the article: [Brain tumour genetic network signatures of survival](URL).
+This is the codebase for the article: [Brain tumour genetic network signatures of survival](https://doi.org/10.1093/brain/awad199).
 
 **Tumour heterogeneity is increasingly recognized as a major obstacle to therapeutic success across neuro-oncology.** Gliomas are characterised by *distinct combinations of genetic and epigenetic alterations*, resulting in **complex interactions across multiple molecular pathways.**
 
@@ -43,7 +43,7 @@ Our findings illuminate the complex dependence between features across the genet
 
 
 ## Code
-Example code for all model development and post-hoc analysis detailed within the [article](URL) is *open sourced* [here](code/). These are as follows:
+Example code for all model development and post-hoc analysis detailed within the [article](https://doi.org/10.1093/brain/awad199) is *open sourced* [here](code/). These are as follows:
 
 ### [1_GenerateGraph.ipynb](code/1_GenerateGraph.ipynb)
 Illustrates the preliminary data wrangling, node and edge-list curation to pass this to a graph object with a subset of the original data. Also shown are minimum spanning tree visualisations.
@@ -52,7 +52,7 @@ Illustrates the preliminary data wrangling, node and edge-list curation to pass 
 ### [2_ModelGraph.ipynb](code/2_ModelGraph.ipynb)
 Demonstrates fitting the generative, hierarchical stochastic block model of all *patients as nodes*, and *edges depicting the multivariate similarity between genetic/epigenetic tests*. Initial fitting is undertaken with the [stochastic block model](https://dx.doi.org/10.1002/9781119483298.ch11) with further optimisation via [MCMC](https://dx.doi.org/10.1103/PhysRevE.89.012804).
 
-N.B. in this toy example we utilise only the minimum spanning tree, and reduce the number of iterations in MCMC. For a full analysis (as done in the [article](URL)), we recommend using the non-thresholded graph, and MCMC iterations should be increased.
+N.B. in this toy example we utilise only the minimum spanning tree, and reduce the number of iterations in MCMC. For a full analysis (as done in the [article](https://doi.org/10.1093/brain/awad199)), we recommend using the non-thresholded graph, and MCMC iterations should be increased.
 
 ### [3_VisualiseGraph.ipynb](code/3_VisualiseGraph.ipynb)
 Shows visualisation of the results, and projection of survival data.
@@ -68,9 +68,9 @@ Via github issue log or email to j.ruffle@ucl.ac.uk.
 
 
 ## Citation
-If using these works, please cite the following [article](URL).
+If using these works, please cite the following [article](https://doi.org/10.1093/brain/awad199).
 
-James K Ruffle, Robert Gray, Samia Mohinta, Guilherme Pombo, Chaitanya Kaul, Harpreet Hyare, Geraint Rees, Parashkev Nachev. Brain tumour genetic network signatures of survival. Brain. 2023. In press.
+James K Ruffle, Samia Mohinta, Guilherme Pombo, Robert Gray, Valeriya Kopanitsa, Faith Lee, Sebastian Brandner, Harpreet Hyare, Parashkev Nachev. Brain tumour genetic network signatures of survival. Brain. 2023. In press.
 
 
 ## Funding
