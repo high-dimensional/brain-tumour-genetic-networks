@@ -494,4 +494,4 @@ model_results.waic(54,:) = retval.modelstats.waic
 
 %%
 %%save results
-writetable(model_results,'/home/jruffle/OneDrive/PhD/JupyterOutputs/neuro_onc_data/2022Results/patientnetwork_OCT/bayesreg_survival_results_36months.csv');
+writetable(model_results,'bayesreg_survival_results_36months.csv');
